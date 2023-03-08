@@ -1,4 +1,5 @@
-#usr/bin/R
+#!usr/bin/R
+#excecute as Rscript <script> <gtf file>
 
 #load required libraries
 library(GenomicRanges)
