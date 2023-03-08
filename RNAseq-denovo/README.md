@@ -1,7 +1,7 @@
-###need of these scripts
+###_**need of these scripts**_
 
 Some tasks of RNAseq analysis pipeline can be accomplished using these scripts.
 
-###biotype_from_gtf.sh
+###**biotype_from_gtf.sh**
 
 bash script for extracting biotype information from gtf file
