@@ -9,4 +9,5 @@ bash script for extracting biotype information from gtf file
 ###**exon_bed_extract.R**
 
 R script to obtain bed file of exons from gtf file
+
 exon.bed is useful for filtering aligned reads
