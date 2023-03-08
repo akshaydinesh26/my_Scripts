@@ -1,5 +1,15 @@
+#!/usr/bin/R
+
+#assign status to genes based on pvalue and log2FoldChange
+#pvalue > 0.05 - non-significant
+#pvalue < 0.05 & log2FoldChange > 2 - upregulated
+#pvalue < 0.05 & log2FoldChange < -2 - downregulated
+#pvalue < 0.05 & -2 < log2FoldChange < 2 - baseline
+
+#load library
 library(dplyr)
 
+#function to assign status to a gene based on log2FoldChange
 status_cha <- function(x){
   tag <- ""
   if(x>2){
@@ -10,7 +20,7 @@ status_cha <- function(x){
   return(tag)
 }
 
-
+#function assign status for all genes in a dataframe of Deseq2 results
 change <- function(data){
   data1 <- data %>% filter(pvalue=="NA" | pvalue > 0.05)
   data2 <- data %>% filter(pvalue < 0.05)
