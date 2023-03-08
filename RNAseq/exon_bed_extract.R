@@ -1,3 +1,5 @@
+#usr/bin/R
+
 #load required libraries
 library(GenomicRanges)
 library(GenomicFeatures)
