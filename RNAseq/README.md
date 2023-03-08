@@ -9,7 +9,7 @@ R script to obtain bed file of exons from gtf file<br>
 exon.bed is useful for filtering aligned reads
 
 ###**give_status.R**<br>
-assign status to genes based on pvalue and log2FoldChange<br>
+assign status to genes based on pvalue and log2FoldChange in Differential gene expression analysis results<br>
     pvalue > 0.05 - non-significant<br>
     pvalue < 0.05 & log2FoldChange > 2 - upregulated<br>
     pvalue < 0.05 & log2FoldChange < -2 - downregulated<br>
