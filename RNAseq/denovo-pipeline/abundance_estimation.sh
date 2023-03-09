@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-
+#this is for paired end reads
 #run the script in the folder containing reads
 #abundance estimation using perl script with Trinity
 #REQUIREMENT:
