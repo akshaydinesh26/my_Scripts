@@ -1,5 +1,7 @@
 #!/usr/bin/bash
 
+
+#run the script in the folder containing reads
 #abundance estimation using perl script with Trinity
 #REQUIREMENT:
 #Trinity
