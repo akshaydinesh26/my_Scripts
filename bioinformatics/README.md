@@ -20,3 +20,9 @@ bowtie alignment script<br>
 
 ###**bwa-mem.sh**<br>
 bwa-mem alignment script<br>
+
+###**exon_extract.R**<br>
+extract exon bed file from gff file<br>
+
+###**haplotypecaller.sh**<br>
+GATK haplotype caller script<br>
