@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 
 #requirment:
-
+#index & outputfolder
 #execute as:
-
+#./bwa-mem.sh index outputfolder
 index=$1
 out=$2
 
