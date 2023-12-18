@@ -17,3 +17,6 @@ assign status to genes based on pvalue and log2FoldChange in Differential gene e
 
 ###**bowtie2.sh**<br>
 bowtie alignment script<br>
+
+###**bwa-mem.sh**<br>
+bwa-mem alignment script<br>
