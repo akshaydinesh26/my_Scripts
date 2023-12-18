@@ -14,3 +14,6 @@ assign status to genes based on pvalue and log2FoldChange in Differential gene e
     pvalue < 0.05 & log2FoldChange > 2 - upregulated<br>
     pvalue < 0.05 & log2FoldChange < -2 - downregulated<br>
     pvalue < 0.05 & -2 < log2FoldChange < 2 - baseline<br>
+
+###**bowtie2.sh**<br>
+bowtie alignment script<br>
