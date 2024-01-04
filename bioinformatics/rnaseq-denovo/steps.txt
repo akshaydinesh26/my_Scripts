@@ -1,0 +1,16 @@
+1. assembly - trinity
+2. remove reduandancy - cd-hit-est
+3. remove transcripts below < size cutoff
+
+#filter transcripts
+faSize <assembly fasta file> -detailed | awk '$2>500 {print $1}' > passed_transcripts.txt
+
+#get fasta file of filtered transcripts
+ faSomeRecords input.fasta passed_transcripts.txt output.fasta
+ 
+3. validation - busco
+4. filter assembly further - Transimprove_Bionivid.pl
+5. abundance_estimation - script 4
+
+
+
